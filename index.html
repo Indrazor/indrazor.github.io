@@ -22,21 +22,65 @@
 		ul {
 			list-style-type: none;
 			padding: 0;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
 		}
 		li {
-			margin-bottom: 10px;
+			margin: 10px;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			width: 200px;
+			text-align: center;
 		}
 		.eje {
 			font-weight: bold;
-			color: #666;
+			color: #fff;
+			background-color: #666;
 		}
-		.contenido, .aplicacion {
-			margin-left: 20px;
-			color: #888;
+		.contenido {
+			background-color: #f1c40f;
+			color: #333;
+		}
+		.aplicacion {
+			background-color: #3498db;
+			color: #fff;
 		}
 	</style>
 </head>
 <body>
 	<div class="mind-map">
 		<h1>Teamwork and Collaboration</h1>
-		<h2>
+		<h2>Ejes Principales</h2>
+		<ul>
+			<li class="eje">Autoconciencia</li>
+			<li class="eje">Autogestión</li>
+			<li class="eje">Conciencia Social</li>
+			<li class="eje">Habilidades Sociales</li>
+		</ul>
+
+		<h2>Contenidos Nuevos</h2>
+		<ul>
+			<li class="contenido">Comprender las emociones propias y su impacto</li>
+			<li class="contenido">Evaluación realista de fortalezas y limitaciones</li>
+			<li class="contenido">Manejar impulsos y mantener la calma</li>
+			<li class="contenido">Interpretar dinámicas organizacionales</li>
+			<li class="contenido">Satisfacer necesidades de clientes/stakeholders</li>
+			<li class="contenido">Cultivar y mantener redes de relaciones</li>
+			<li class="contenido">Promover colaboración y trabajo en equipo</li>
+		</ul>
+
+		<h2>Aplicaciones</h2>
+		<ul>
+			<li class="aplicacion">Mejorar autoconocimiento para un mejor desempeño</li>
+			<li class="aplicacion">Mostrar honestidad e integridad para ganar confianza</li>
+			<li class="aplicacion">Adaptarme y superar obstáculos con flexibilidad</li>
+			<li class="aplicacion">Emplear empatía para entender perspectivas ajenas</li>
+			<li class="aplicacion">Usar habilidades de comunicación efectiva</li>
+			<li class="aplicacion">Manejar conflictos y llegar a resoluciones</li>
+			<li class="aplicacion">Construir y fortalecer el trabajo colaborativo</li>
+		</ul>
+	</div>
+</body>
+</html>
